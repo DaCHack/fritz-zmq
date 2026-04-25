@@ -1,6 +1,6 @@
 services:
   fritz-zmq:
-    image: fritz-zmq:latest
+    image: dachack/fritz-zmq:latest
     container_name: fritz-zmq
     restart: unless-stopped
     environment:
